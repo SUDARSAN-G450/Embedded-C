@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main(){
+    long long a;
+char name[50],d[40],g[55],n[55];
+printf("Enter the Person Detials:");
+printf("\nEnter the Name :");
+scanf("%s",&name);
+printf("%s\n",name);
+printf("Enter the Age :");
+scanf("%s",&d);
+printf("%s\n",d);
+printf("Enter the city :");
+scanf("%s",&g);
+printf("%s\n",g);
+printf("Enter the Ph no :");
+scanf("%lld",&a);
+printf("%lld\n",a);
+printf("Enter the gmail :");
+scanf("%s",&n);
+printf("%s",n);
+
+    return 0;
+} 
