@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    int a,b;
+    printf("Enter the a value :\n");
+    scanf("%d%d",&a,&b);
+    printf("equal%d\n",a==b);
+    printf("notequal%d\n",a!=b);
+    printf("lessthen%d\n",a<b);
+    printf("greaterthen%d\n",a>b);
+    printf("lessthen equ%d\n",a<=b);
+    printf("greaterthen equ%d\n",a>=b);
+    
+    return 0;
+}
