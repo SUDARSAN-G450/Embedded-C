@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main() {
+    int a;
+    printf("Enter the Number :\n");
+    scanf("%d",&a);
+    printf("%d",a);
+    float d;
+    printf("\n Enter the Weight:");
+    scanf("%f",&d);
+    printf("\n%.2f",d);
+    char s;
+    scanf("%c",&s);
+    printf("%c\n",s);
+    char name[66];
+    scanf("%s",&name);
+    printf("%s",name);
+    return 0;
+}
